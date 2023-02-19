@@ -6,7 +6,7 @@ It utilizes [CRXJS](https://github.com/crxjs/chrome-extension-tools) to do the h
 
 CRXJS uses the chrome manifest to discover the entry files needed for the extension, it's pretty cool stuff. Check out [the docs](https://crxjs.dev/vite-plugin/concepts/manifest) for a better explanation.
 
-`npm run dev` has been a bit buggy for me, I'd recommend just going with `npm run build`
+`npm run dev` has been a bit buggy for me, when in doubt just opt for `npm run build`
 
 ## Usage
 

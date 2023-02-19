@@ -18,5 +18,11 @@
       "js": ["src/content-scripts/something.tsx"],
       "matches": ["https://developer.chrome.com/*"]
     }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["src/panel/index.html"],
+      "matches": ["<all_urls>"]
+    }
   ]
 }
