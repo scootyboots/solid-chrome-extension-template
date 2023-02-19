@@ -1,3 +1,7 @@
 export default function Options() {
-  return <div>hey it's the options page</div>
+  return (
+    <div>
+      <p>hey it's the options page</p>
+    </div>
+  )
 }
