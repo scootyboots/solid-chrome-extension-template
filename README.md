@@ -1,3 +1,13 @@
+# Solidjs Chrome Extension Template
+
+This is a starter project for making a chrome extension using typescript and solidjs - using vite for the build tool.
+
+It utilizes [CRXJS](https://github.com/crxjs/chrome-extension-tools) to do the heavy lifting for configuring vite to build the necessary files for a chrome extension.
+
+CRXJS uses the chrome manifest to discover the entry files needed for the extension, it's pretty cool stuff. Check out [the docs](https://crxjs.dev/vite-plugin/concepts/manifest) for a better explanation.
+
+`npm run dev` has been a bit buggy for me, I'd recommend just going with `npm run build`
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
