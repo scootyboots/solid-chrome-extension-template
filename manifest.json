@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "CRXJS Solid Vite Example",
+  "version": "1.0.0",
+  "action": { "default_popup": "src/popup/index.html" },
+  "options_page": "src/options/index.html",
+  "devtools_page": "src/devtools/index.html",
+  "background": {
+    "service_worker": "src/background/index.ts",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "js": ["src/content-scripts/index.ts", "src/content-scripts/content.ts"],
+      "matches": ["https://www.google.com/*"]
+    },
+    {
+      "js": ["src/content-scripts/something.tsx"],
+      "matches": ["https://developer.chrome.com/*"]
+    }
+  ]
+}
